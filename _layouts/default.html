@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="George Igwegbe portfolio Website" name="description">
+    <meta name="google" content="notranslate" />
+    <meta content="George Igwegbe" name="author">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png"> -->
+    <link href="/img/favicon-2.ico" rel="icon">
+
+    <title>{{page.title}}</title>
+
+    <link href="/css/default.css" rel="stylesheet" type="text/css">
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6090964870909817"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="minimal">
+    <header>
+        <nav class="navbar  navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav ">
+                        <li><a href="{{ site.baseurl }}/index.html" title="">01 : Home</a></li>
+                        <li><a href="{{ site.baseurl }}/resume.html" title="">02 : Resume</a></li>
+                        <li><a href="{{ site.baseurl }}/blog.html" title="">03 : Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    {{content}}
+
+    <footer class="footer-container text-center">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-xs-12">
+                    <p>Inspired by dank memes and big dreams :')</p>
+                </div> -->
+                <div class="col-xs-12">
+                    <p>© George Igwegbe 2025</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            type();
+            movingBackgroundImage();
+        });
+    </script>
+
+
+    <script type="text/javascript" src="/js/main.js"></script>
+</body>
+
+</html>
