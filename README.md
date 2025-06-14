@@ -11,11 +11,8 @@ gem install jekyll bundler
 bundle exec jekyll serve
 ```
 
-### TODO 
-- Dark Mode (Let see how that goes)
-- ?
-- ?
-- ?
+<!-- ### TODO  -->
+<!-- - Dark Mode (Let see how that goes) -->
   
 
 # Reference 
