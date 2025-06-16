@@ -16,4 +16,4 @@ bundle exec jekyll serve
   
 
 # Reference 
-Thanks to [Kylie Ying](ying18.github.io).
+Thanks to [Kylie Ying](https://www.kylieying.com).
