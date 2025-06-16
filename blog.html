@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: Blogs
 ---
 <div class="section-container">
     <div class="container">
@@ -13,19 +13,8 @@ title: Blog
         </div>
     </div>
     <div class="container posts">
-        <!-- {% for post in site.posts %}
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="template-example">
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-                </div>
-            </div>
-        </div>
-
-        {% endfor %} -->
         <ul>
-            {% for post in site.posts %}
+            {% for post in site.blogs %}
             <li>
                 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
