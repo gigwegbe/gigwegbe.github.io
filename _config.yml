@@ -8,7 +8,7 @@ name: George Igwegbe
 # permalink: /:title/
 # baseurl: https://georgeigwegbe.com
 # baseurl: ""
-permalink: /blog/:title
+# permalink: /blog/:title
 
 collections:
   notes:
