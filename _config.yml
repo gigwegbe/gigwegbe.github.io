@@ -6,10 +6,22 @@
 
 name: George Igwegbe 
 # permalink: /:title/
-# baseurl: https://kylieying.com
+# baseurl: https://georgeigwegbe.com
 # baseurl: ""
 permalink: /blog/:title
 
+collections:
+  notes:
+    output: true
+    permalink: /notes/:title/
+  blogs:
+    output: true
+    permalink: /blogs/:title/
+  things:
+    output: true
+    permalink: /things/:title/
+
+    
 # seo tag
 # plugins:
 #   - jekyll-seo-tag

@@ -7,7 +7,7 @@ title: Notes
         <div class="row resume-row-label">
             <div class="col-xs-12">
                 <div class="template-example">
-                    <h2 class="template-title-example">Latest Posts</h2>
+                    <h2 class="template-title-example">Latest Notes</h2>
                     <p>This is the space where I openly express and share my thoughts, perspectives, and
                         reflections on a wide range of subjects, spanning various interests, ideas, and
                         experiences that inspire or intrigue me.</p>
@@ -16,24 +16,16 @@ title: Notes
         </div>
     </div>
     <div class="container posts">
-        {% for post in site.posts %}
-        <!-- <div class="row">
-            <div class="col-xs-12">
-                <div class="template-example">
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-                </div>
-            </div>
-        </div> -->
-
-        {% endfor %}
         <ul>
-            {% for post in site.posts %}
+            {% for note in site.notes %}
             <li>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+                <a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+                <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%b %d, %Y" }}</time>
             </li>
             {% endfor %}
         </ul>
+
+
+
     </div>
 </div>
