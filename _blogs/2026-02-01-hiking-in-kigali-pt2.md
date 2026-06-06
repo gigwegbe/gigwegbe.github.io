@@ -26,7 +26,7 @@ The climb started and did not let up. The hills were steep, genuinely steep, the
 
 Up on the ridge, the views opened up in a way that made the burning legs completely worth it. Kigali spread out far below, the valley cutting through the city, a river snaking through the flat land between the hills. From up there, the city looks almost peaceful. You forget you were just grinding your way up slippery red earth a few minutes ago.
 
-<<div class="graphic-container">
+<div class="graphic-container">
     <img src="/img/hiking2/p2k8.jpg" width="100%">
 </div>
 
